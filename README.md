@@ -1,60 +1,97 @@
 # Hi, I'm Szabolcs 👋
 
-**Senior SDET / Test Automation Engineer**
+**Senior SDET · Quality Engineering**
 
-I design and build maintainable test automation systems with a focus on architecture, reliability, reproducibility, and fast engineering feedback.
+I design and build maintainable Quality Engineering systems with a focus on **architecture, deterministic execution, reproducibility, meaningful quality signals, and engineering evidence**.
 
-My current work focuses on production-oriented automation with **Playwright and TypeScript**, covering browser testing, API automation, contract validation, CI/CD, and containerized execution.
+My current work centers on a production-style Playwright + TypeScript engineering system spanning **API and contract testing, browser automation, accessibility, visual regression, performance testing, Docker, CI/CD, and failure diagnostics**.
 
-## 🧪 Featured Project
+### [Explore my Quality Engineering Portfolio →](https://szabihudak.github.io/quality-engineering-showcase/)
+
+---
+
+## 🧪 Quality Engineering Portfolio
+
+The **[Quality Engineering Showcase](https://szabihudak.github.io/quality-engineering-showcase/)** is the presentation and evidence layer for my current engineering work.
+
+It provides a structured path through the system:
+
+- **API & Contract Testing** — domain API clients, TypeBox schemas, AJV runtime validation
+- **UI & Cross-Browser Testing** — Playwright, Page Objects, fixtures, Chromium, Firefox, WebKit
+- **Accessibility Testing** — axe-core, WCAG-oriented automated quality gates, real defect evidence
+- **Visual Regression** — deterministic Playwright screenshot testing with reviewed Linux baselines
+- **Performance Engineering** — k6 API performance, Lighthouse CI, authenticated Lighthouse execution
+- **CI/CD & Containers** — Docker, GitHub Actions, GHCR, responsibility-based execution
+- **Failure Diagnostics** — reports and execution artifacts used for structured root-cause analysis
+
+The portfolio connects **engineering claims to inspectable evidence** rather than presenting capabilities as a checklist alone.
+
+**[Open Portfolio Site →](https://szabihudak.github.io/quality-engineering-showcase/)**  
+**[View Showcase Repository →](https://github.com/szabihudak/quality-engineering-showcase)**
+
+---
+
+## ⚙️ Runnable Public Framework
 
 ### [Playwright Enterprise Framework](https://github.com/szabihudak/playwright-enterprise-framework)
 
-A production-oriented Playwright + TypeScript test automation framework designed to demonstrate engineering practices used in maintainable, scalable automation systems.
+A standalone public **Playwright + TypeScript** framework demonstrating the core API, UI, contract-validation, cross-browser, Docker, and CI engineering patterns represented throughout the portfolio.
 
-**Key engineering areas:**
+It can be inspected, cloned, and executed independently.
 
-- UI and API automation
-- Schema-based API contract validation
+Key implementation areas include:
+
+- API and browser automation
+- Schema-based runtime contract validation
 - Programmatic authentication
-- Test data and fixture architecture
+- Deterministic test-data and fixture architecture
+- Page Object and Component Object design
 - Network mocking
-- Cross-browser execution
-- Dockerized test execution
+- Chromium, Firefox, and WebKit execution
+- Dockerized execution
 - GitHub Actions CI/CD
 - Failure diagnostics and test artifacts
-- Architecture Decision Records
-- Documented testing and architecture standards
+- Architecture Decision Records and engineering standards
 
-The project focuses not only on test implementation, but also on the engineering decisions and trade-offs behind the framework.
+**[Inspect the Runnable Framework →](https://github.com/szabihudak/playwright-enterprise-framework)**
 
-## 🛠️ Core Technologies
-
-`Playwright` · `TypeScript` · `Node.js` · `Docker` · `GitHub Actions` · `AJV` · `TypeBox`
+---
 
 ## 🏗️ Engineering Focus
 
 I am particularly interested in:
 
-- Test automation architecture
-- Quality engineering
-- API and contract testing
-- Reliable CI/CD pipelines
-- Reproducible test environments
-- Maintainable test design
+- Quality Engineering and test automation architecture
+- Deterministic and maintainable test systems
+- API and runtime contract validation
+- Explicit execution ownership and quality gates
+- Reproducible containerized CI/CD
+- Accessibility, visual, and performance quality signals
+- Failure diagnostics and evidence-driven engineering
 - Engineering trade-offs and technical decision-making
 
-## 📚 Architecture & Engineering Documentation
+---
 
-The featured framework includes dedicated documentation for:
+## 🛠️ Technology
 
-- Framework architecture
-- Testing standards
-- Framework requirements
-- Architecture Decision Records (ADRs)
+`Playwright` · `TypeScript` · `Node.js` · `TypeBox` · `AJV` · `axe-core` · `k6` · `Lighthouse` · `Docker` · `GitHub Actions` · `GHCR`
 
-These documents capture not only how the framework works, but also why key engineering decisions were made.
+---
+
+## 🚀 Current Direction
+
+The current automation engineering foundation covers API, browser, accessibility, visual, performance, containerized execution, CI/CD, and diagnostics.
+
+The next areas of development extend that foundation into:
+
+**Data & Cloud Foundations → AI-Assisted Quality Engineering → QE Strategy & Leadership → System Design, Security & Observability**
+
+The detailed engineering roadmap is maintained in the **[Quality Engineering Showcase](https://szabihudak.github.io/quality-engineering-showcase/roadmap/)**.
+
+---
 
 ## 📫 Connect
 
+- [LinkedIn](https://www.linkedin.com/in/szabolcs-v-hudak/)
 - [GitHub](https://github.com/szabihudak)
+- [Quality Engineering Portfolio](https://szabihudak.github.io/quality-engineering-showcase/)
