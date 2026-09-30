@@ -47,7 +47,7 @@ It provides a structured path through the system:
 - **Performance Engineering** — k6 API performance, Lighthouse CI, authenticated Lighthouse execution
 - **CI/CD & Containers** — Docker, GitHub Actions, GHCR, responsibility-based execution
 - **Failure Diagnostics** — reports, GitHub-native summaries, and execution artifacts used for structured root-cause analysis
-- **AI-Assisted Quality Engineering** — AI Failure Analysis, AI Test Scenario Generation, repository-aware Copilot workflows, Golden Templates, and human-review boundaries
+- **AI-Assisted Quality Engineering** — AI Failure Analysis, AI Test Suite Generation, repository-aware Copilot workflows, Golden Templates, and human-review boundaries
 - **AI-Assisted Engineering Validation** — Copilot Agent workflows, OpenAPI MCP contract discovery, and Playwright MCP browser exploration with deterministic validation
 
 The portfolio connects **engineering claims to inspectable evidence** rather than presenting capabilities as a checklist alone.
