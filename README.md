@@ -4,7 +4,7 @@
 
 I design and build maintainable Quality Engineering systems with a focus on **architecture, deterministic execution, reproducibility, meaningful quality signals, and engineering evidence**.
 
-My current work centers on a production-style Playwright + TypeScript engineering system spanning **API and contract testing, browser automation, accessibility, visual regression, performance testing, Docker, CI/CD, and failure diagnostics**.
+My current work centers on a production-style Playwright + TypeScript engineering system spanning **API and contract testing, database persistence validation, browser automation, accessibility, visual regression, performance testing, Docker, CI/CD, failure diagnostics, and AI-assisted Quality Engineering**.
 
 ### [Explore my Quality Engineering Portfolio →](https://szabihudak.github.io/quality-engineering-showcase/)
 
@@ -17,12 +17,15 @@ The **[Quality Engineering Showcase](https://szabihudak.github.io/quality-engine
 It provides a structured path through the system:
 
 - **API & Contract Testing** — domain API clients, TypeBox schemas, AJV runtime validation
+- **Database Validation** — typed PostgreSQL access and persistence validation
 - **UI & Cross-Browser Testing** — Playwright, Page Objects, fixtures, Chromium, Firefox, WebKit
 - **Accessibility Testing** — axe-core, WCAG-oriented automated quality gates, real defect evidence
 - **Visual Regression** — deterministic Playwright screenshot testing with reviewed Linux baselines
 - **Performance Engineering** — k6 API performance, Lighthouse CI, authenticated Lighthouse execution
 - **CI/CD & Containers** — Docker, GitHub Actions, GHCR, responsibility-based execution
-- **Failure Diagnostics** — reports and execution artifacts used for structured root-cause analysis
+- **Failure Diagnostics** — reports, GitHub-native summaries, and execution artifacts used for structured root-cause analysis
+- **AI-Assisted Quality Engineering** — AI Failure Analysis, AI Test Scenario Generation, repository-aware Copilot workflows, Golden Templates, and human-review boundaries
+- **AI-Assisted Engineering Validation** — Copilot Agent workflows, OpenAPI MCP contract discovery, and Playwright MCP browser exploration with deterministic validation
 
 The portfolio connects **engineering claims to inspectable evidence** rather than presenting capabilities as a checklist alone.
 
@@ -64,27 +67,32 @@ I am particularly interested in:
 - Quality Engineering and test automation architecture
 - Deterministic and maintainable test systems
 - API and runtime contract validation
+- Database and persistence validation
 - Explicit execution ownership and quality gates
 - Reproducible containerized CI/CD
 - Accessibility, visual, and performance quality signals
 - Failure diagnostics and evidence-driven engineering
+- AI-assisted Quality Engineering with deterministic validation and human review
+- Repository-aware AI engineering workflows and MCP-assisted discovery
 - Engineering trade-offs and technical decision-making
 
 ---
 
 ## 🛠️ Technology
 
-`Playwright` · `TypeScript` · `Node.js` · `TypeBox` · `AJV` · `axe-core` · `k6` · `Lighthouse` · `Docker` · `GitHub Actions` · `GHCR`
+`Playwright` · `TypeScript` · `Node.js` · `PostgreSQL` · `TypeBox` · `AJV` · `axe-core` · `k6` · `Lighthouse` · `Docker` · `GitHub Actions` · `GHCR` · `OpenAI` · `GitHub Copilot` · `OpenAPI MCP` · `Playwright MCP`
 
 ---
 
 ## 🚀 Current Direction
 
-The current automation engineering foundation covers API, browser, accessibility, visual, performance, containerized execution, CI/CD, and diagnostics.
+The current framework v1.0 engineering foundation covers API, database, browser, accessibility, visual, performance, containerized execution, CI/CD, diagnostics, framework-owned AI capabilities, and validated AI-assisted engineering workflows.
 
 The next areas of development extend that foundation into:
 
-**Data & Cloud Foundations → AI-Assisted Quality Engineering → QE Strategy & Leadership → System Design, Security & Observability**
+**AI-Native QA Platform Evaluation → QE Strategy & Leadership → System Design, Security & Observability**
+
+The current AI-native platform evaluation focuses on **mabl**, including AI-native test creation, adaptive and self-healing behavior, maintainability, diagnosis transparency, CI/CD integration, developer control, and build-versus-buy trade-offs.
 
 The detailed engineering roadmap is maintained in the **[Quality Engineering Showcase](https://szabihudak.github.io/quality-engineering-showcase/roadmap/)**.
 
