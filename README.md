@@ -16,37 +16,20 @@ My current work centers on a production-style Playwright + TypeScript engineerin
 flowchart TD
     QE[Production-style Quality Engineering Framework]
 
-    QE --> TQE[Traditional Quality Engineering]
-    QE --> AIQE[AI-Assisted Quality Engineering]
+    QE --> TQE[Traditional QE]
+    QE --> AIQE[AI-Assisted QE]
     QE --> AIE[AI-Assisted Engineering]
 
-    TQE --> API[API & Contract Testing]
-    TQE --> UI[UI & Cross-Browser Testing]
-    TQE --> AX[Accessibility Testing]
-    TQE --> VR[Visual Regression]
-    TQE --> PERF[Performance Engineering]
+    TQE --> TQEF["API & Contracts<br/>Database Validation<br/>UI & Cross-Browser<br/>Accessibility<br/>Visual Regression<br/>Performance"]
 
-    AIQE --> FAIL[AI Failure Analysis]
-    AIQE --> SUITE[AI Test Suite Generation]
-    AIQE --> OPENAI[OpenAI Integration]
-    AIQE --> STRUCT[Structured Output Validation]
+    AIQE --> AIQEF["AI Failure Analysis<br/>AI Test Suite Generation<br/>OpenAI Integration<br/>Structured Output Validation<br/>Human Review"]
 
-    AIE --> COPILOT[GitHub Copilot]
-    AIE --> AGENT[Copilot Agent]
-    AIE --> OAPI[OpenAPI MCP]
-    AIE --> PWMCP[Playwright MCP]
-    AIE --> GOLDEN[Golden Templates]
+    AIE --> AIEF["GitHub Copilot<br/>Copilot Agent<br/>OpenAPI MCP<br/>Playwright MCP<br/>Golden Templates"]
 
-    TQE --> VALIDATE[Deterministic Validation]
-    AIQE --> VALIDATE
-    AIE --> VALIDATE
-
-    VALIDATE --> HUMAN[Human Engineering Review]
+    TQEF --> FOUNDATION[Deterministic Validation + Human Engineering Review]
+    AIQEF --> FOUNDATION
+    AIEF --> FOUNDATION
 ```
-
-The engineering system combines **traditional Quality Engineering, framework-owned AI-assisted Quality Engineering, and repository-aware AI-assisted engineering**.
-
-AI operates within deterministic validation and human engineering ownership rather than replacing the engineering system.
 
 ---
 
@@ -56,16 +39,16 @@ The **[Quality Engineering Showcase](https://szabihudak.github.io/quality-engine
 
 It provides a structured path through the system:
 
-- **API & Contract Testing**: domain API clients, TypeBox schemas, AJV runtime validation
-- **Database Validation**: typed PostgreSQL access and persistence validation
-- **UI & Cross-Browser Testing**: Playwright, Page Objects, fixtures, Chromium, Firefox, WebKit
-- **Accessibility Testing**: axe-core, WCAG-oriented automated quality gates, real defect evidence
-- **Visual Regression**: deterministic Playwright screenshot testing with reviewed Linux baselines
-- **Performance Engineering**: k6 API performance, Lighthouse CI, authenticated Lighthouse execution
-- **CI/CD & Containers**: Docker, GitHub Actions, GHCR, responsibility-based execution
-- **Failure Diagnostics**: reports, GitHub-native summaries, and execution artifacts used for structured root-cause analysis
-- **AI-Assisted Quality Engineering**: AI Failure Analysis, AI Test Suite Generation, repository-aware Copilot workflows, Golden Templates, and human-review boundaries
-- **AI-Assisted Engineering Validation**: Copilot Agent workflows, OpenAPI MCP contract discovery, and Playwright MCP browser exploration with deterministic validation
+- **API & Contract Testing** — domain API clients, TypeBox schemas, AJV runtime validation
+- **Database Validation** — typed PostgreSQL access and persistence validation
+- **UI & Cross-Browser Testing** — Playwright, Page Objects, fixtures, Chromium, Firefox, WebKit
+- **Accessibility Testing** — axe-core, WCAG-oriented automated quality gates, real defect evidence
+- **Visual Regression** — deterministic Playwright screenshot testing with reviewed Linux baselines
+- **Performance Engineering** — k6 API performance, Lighthouse CI, authenticated Lighthouse execution
+- **CI/CD & Containers** — Docker, GitHub Actions, GHCR, responsibility-based execution
+- **Failure Diagnostics** — reports, GitHub-native summaries, and execution artifacts used for structured root-cause analysis
+- **AI-Assisted Quality Engineering** — AI Failure Analysis, AI Test Scenario Generation, repository-aware Copilot workflows, Golden Templates, and human-review boundaries
+- **AI-Assisted Engineering Validation** — Copilot Agent workflows, OpenAPI MCP contract discovery, and Playwright MCP browser exploration with deterministic validation
 
 The portfolio connects **engineering claims to inspectable evidence** rather than presenting capabilities as a checklist alone.
 
